@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+   
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("../img/bgn-slider-01.jpg");
+    height: 100%;
+  
+    /* Control the height of the image */
+   
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    
+    
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    max-width: 600px;
+    padding: 16px;
+    background-color: rgb(252, 234, 234);
+    height: 100%;
+    
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: rgb(252, 241, 241);
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color:crimson;
+    color:black;
+    font-weight: 800;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  .container>h1{
+    text-align: center;
+    font-weight: bolder;
+  }
